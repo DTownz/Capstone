@@ -1,0 +1,25 @@
+/* Universal Styles */
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+/* Header */
+header {
+  display: block;
+  background-color: gray;
+  height: 1350px;
+}
+nav {
+  font-size: 32px;
+  background-color: white;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+ul li {
+  display: inline;
+}
