@@ -8,7 +8,7 @@ html {
 header {
   display: block;
   background-color: gray;
-  height: 1350px;
+  height: 800px;
 }
 nav {
   font-size: 32px;
@@ -22,10 +22,13 @@ nav {
 
 ul li {
   display: inline;
+  padding: 0px 16px;
 }
 
 header img {
   width: 60%;
+  padding: 24px 32px;
+
 }
 
 .main-header {
@@ -35,4 +38,6 @@ header img {
 .start-text {
   flex-direction: column;
   padding-left: 24px;
+  text-align: center;
+  justify-content: center;
 }
