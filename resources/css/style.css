@@ -41,3 +41,13 @@ header img {
   text-align: center;
   justify-content: center;
 }
+
+/* Section 1 */
+.practice img {
+  width: 60%;
+  padding: 24px 32px;
+}
+
+.book-dude {
+  display: flex;
+}
