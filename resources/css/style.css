@@ -4,11 +4,19 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
+
+body {
+  height: auto;
+  margin: 0 auto;
+  max-width: 1024px%;
+  width: 100%;
+}
+
 /* Header */
 header {
   display: block;
   background-color: gray;
-  height: 800px;
+  height: 50%;
 }
 nav {
   font-size: 32px;
@@ -50,4 +58,19 @@ header img {
 
 .book-dude {
   display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.practice {
+  border-right: 1px solid #dedede;
+  flex-basis: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.announcement {
+  display: flex;
+  flex-basis: 25%%;
+  flex-direction: column;
+  padding: 1rem 2rem;
 }
